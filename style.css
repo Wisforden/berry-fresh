@@ -1,0 +1,31 @@
+body {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #ffe3eb;
+    margin: 0;
+}
+
+header {
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
+        background-color: #f57ca1; color:rgb(125, 3, 3);
+}
+
+section {
+    background-color: #fba9c2;
+}
+
+p {
+    color: black;
+}
+
+.show-paragraph {
+    color: rgb(125, 3, 3);
+}
+
+a {
+    color: rgb(125, 3, 3);
+    font-size: 30px;
+}
