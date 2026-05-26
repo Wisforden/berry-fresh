@@ -70,8 +70,8 @@ a {
     font-size: 30px;
     text-decoration: none;
     margin: auto;
-   display: block;
-   justify-self: center;
+    display: block;
+    justify-self: center;
 }
 
 a:hover {
