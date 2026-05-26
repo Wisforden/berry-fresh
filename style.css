@@ -18,6 +18,13 @@ header {
     background-color: #f57ca1; color:rgb(125, 3, 3);
 }
 
+footer {
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f57ca1; color:rgb(125, 3, 3);
+}
+
 section {
     background-color: #b8214e;
 }
@@ -107,4 +114,8 @@ a:hover {
     display: flex;
     flex-direction: center;
     justify-content: space-evenly;
+}
+
+.socials {
+    color: pink
 }
