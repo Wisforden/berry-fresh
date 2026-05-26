@@ -17,12 +17,20 @@ section {
     background-color: #fba9c2;
 }
 
-p {
-    color: black;
+h2 {
+    color: 	#ec5885;
 }
 
-.show-paragraph {
-    color: rgb(125, 3, 3);
+h3 {
+    color: 	#ec5885;
+}
+
+h4{
+    color: 	#ec5885;
+}
+
+p {
+    color:#d43968;
 }
 
 a {
