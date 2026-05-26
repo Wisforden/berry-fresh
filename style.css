@@ -1,8 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Love Ya Like A Sister", cursive;
     font-weight: 400;
     font-style: normal;
-    background-color: #ffe3eb;
+    background-color: 	#fba9c2;
     margin: 0;
 }
 
@@ -14,14 +19,22 @@ header {
 }
 
 section {
-    background-color: #fba9c2;
+    background-color: #b8214e;
 }
 
+h1 {
+    text-align: center;
+    color: 	rgb(125, 3, 3);
+    font-weight: bold;
+    font-style: normal;
+}
 h2 {
+    text-align: center;
     color: 	#ec5885;
 }
 
 h3 {
+    text-align: center;
     color: 	#ec5885;
 }
 
@@ -29,13 +42,41 @@ h4{
     color: 	#ec5885;
 }
 
-p {
-    color:#d43968;
+ul {
+    color: 	#4a1324;
+    text-align: center;
+    font-weight: bold;
 }
+
+ol {
+    color: 	#4a1324;
+    text-align: center;
+    font-weight: bold;
+}
+
+p {
+    line-height: 3;
+    color:#eed9df;
+    text-align: center;
+}
+
+footer p {
+    font-size: 25px;
+}
+
 
 a {
     color: rgb(125, 3, 3);
     font-size: 30px;
+    text-decoration: none;
+    margin: auto;
+   display: block;
+   justify-self: center;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #ffe3eb;
 }
 
 .video-container {
