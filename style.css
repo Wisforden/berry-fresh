@@ -62,8 +62,8 @@ ol {
 }
 
 p {
-    line-height: 3;
-    color:#eed9df;
+    line-height: 4;
+    color:#f1bfcd;
     text-align: center;
 }
 
@@ -71,6 +71,17 @@ footer p {
     font-size: 25px;
 }
 
+img {
+    border: double 5px #f57ca1;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+video {
+    border: double 5px #f57ca1;
+    border-radius: 10px;
+    padding: 20px;
+}
 
 a {
     color: rgb(125, 3, 3);
