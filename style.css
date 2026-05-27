@@ -1,6 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -15,7 +14,7 @@ header {
     font-family: "Freckle Face", system-ui;
     font-weight: 400;
     font-style: normal;
-    background-color: #f57ca1; color:rgb(125, 3, 3);
+    background-color: #f6326c; color:rgb(125, 3, 3);
 }
 
 footer {
@@ -27,6 +26,8 @@ footer {
 
 section {
     background-color: #b8214e;
+    width: 80%;
+    margin: auto;
 }
 
 h1 {
@@ -34,31 +35,22 @@ h1 {
     color: 	rgb(125, 3, 3);
     font-weight: bold;
     font-style: normal;
+    text-decoration: underline;
 }
-h2 {
+
+h2, h3, h4 {
     text-align: center;
     color: 	#ec5885;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
 }
-
-h3 {
-    text-align: center;
-    color: 	#ec5885;
-}
-
-h4{
-    color: 	#ec5885;
-}
-
-ul {
+   
+ul, ol {
     color: 	#4a1324;
     text-align: center;
     font-weight: bold;
-}
-
-ol {
-    color: 	#4a1324;
-    text-align: center;
-    font-weight: bold;
+    background-color: #f57ca1;
 }
 
 p {
@@ -125,8 +117,34 @@ a:hover {
     display: flex;
     flex-direction: center;
     justify-content: space-evenly;
+    
 }
 
 .socials {
     color: pink
+}
+
+.nav-container {
+   background-color: #f88cac;
+   margin: 10px;
+   border-bottom: double 5px #f04a7c;
+   padding: 15px;
+}
+
+#list {
+    display: flex;
+    flex-direction: center;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    border-bottom: double 5px #f04a7c;
+    font-size: 40px;
+}
+
+#list2 {
+    display: flex;
+    flex-direction: center;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    border-bottom: double 5px #f04a7c;
+    font-size: 30px;
 }
