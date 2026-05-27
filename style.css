@@ -8,6 +8,8 @@ body {
     font-style: normal;
     background-color: 	#fba9c2;
     margin: 0;
+    background-image: url(images/berry_background.jpg);
+    background-repeat: repeat;
 }
 
 header {
@@ -93,12 +95,16 @@ a:hover {
     display: flex;
     flex-direction: center;
     justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .photo-container {
     display: flex;
     flex-direction: center;
     justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .show-paragraph {
@@ -147,4 +153,11 @@ a:hover {
     text-decoration: underline;
     border-bottom: double 5px #f04a7c;
     font-size: 30px;
+}
+
+.banner {
+    height: 150px;
+    background-image: url(images/marys_berrys.jpg);
+    background-size: cover;
+    background-position: center;
 }
