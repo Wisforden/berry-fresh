@@ -7,12 +7,13 @@ body {
     font-weight: 400;
     font-style: normal;
     background-color: 	#fba9c2;
-    margin: 0;
+    margin: 15px;
+    padding: 0;
     background-image: url(images/berry_background.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-}
+    background-attachment: fixed;
+}   
+
 
 header {
     font-family: "Freckle Face", system-ui;
@@ -164,12 +165,12 @@ a:hover {
 }
 
 .banner {
-    height: 150px;
-    background-image: url(images/marys_berrys.jpg);
+    height: 50vh;
+    background-image: url(images/website_banner.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    flex-direction: center;
-    justify-content: space-evenly;
+    background-position: center;
+    border: solid 20px #81062b;
 }
