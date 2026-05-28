@@ -165,12 +165,11 @@ a:hover {
 }
 
 .banner {
-    height: 50vh;
-    background-image: url(images/website_banner.png);
-    background-size: cover;
-    background-position: center;
+    background-image: url(images/mary_banner_berry.png);
+    background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
     background-position: center;
-    border: solid 20px #81062b;
+    height:300px;
+    width: 100%;
+    border: solid 8px #81062b;
 }
