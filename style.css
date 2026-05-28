@@ -9,8 +9,8 @@ body {
     background-color: 	#fba9c2;
     margin: 15px;
     padding: 0;
-    background-image: url(images/berry_background.jpg);
-    background-size: cover;
+    background-image: url(images/mary-berry.png);
+    background-size: contain;
     background-attachment: fixed;
 }   
 
@@ -45,7 +45,7 @@ h1 {
 
 h2, h3, h4 {
     text-align: center;
-    color: 	#ec5885;
+    color: 	#722139;
     font-weight: bold;
     font-style: italic;
     text-decoration: underline;
@@ -69,7 +69,8 @@ footer p {
 }
 
 img {
-    border: double 5px #f57ca1;
+    border-bottom: double 5px #f57ca1;
+    border-top: double 5px #f57ca1;
     border-radius: 10px;
     padding: 20px;
     width: 100%;
@@ -78,7 +79,8 @@ img {
 }
 
 video {
-    border: double 5px #f57ca1;
+    border-bottom: double 5px #f57ca1;
+    border-top: double 5px #f57ca1;
     border-radius: 10px;
     padding: 20px;
     width: 100%;
@@ -166,10 +168,12 @@ a:hover {
 
 .banner {
     background-image: url(images/mary_banner_berry.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height:300px;
-    width: 100%;
-    border: solid 8px #81062b;
+    height: 400px;
+    width:  900px;
+    border: double 8px #81062b;
+    margin: 0 auto;
+    padding: 20px;
 }
