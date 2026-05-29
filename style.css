@@ -78,6 +78,11 @@ img {
     height: auto;
 }
 
+img:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+
 video {
     border-bottom: double 5px #f57ca1;
     border-top: double 5px #f57ca1;
